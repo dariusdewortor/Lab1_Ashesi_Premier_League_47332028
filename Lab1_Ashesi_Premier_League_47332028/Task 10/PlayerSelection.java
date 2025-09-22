@@ -103,6 +103,21 @@ public class PlayerSelection {
          System.out.println("Player details" + "\nPlayer: " + name + "\nAge: " + age + " " + playerStatus + "\nheight: " + heightInCm + "cm"
                 + "\nweight: " + weightInKg + "kg" + "\nJersey: " + jerseyNumber + "\nPosition: " + position + "\nAttacker jersey: " + attackerJersey + "\nEligibility: " + eligible + 
                 "\nLineup Decision: " + lineupDecision + "\nFinal Decision: " + finalStatus);
+        
+        
+                //Unwanted fall through
+                switch(jerseyNumber) {
+                case 2:
+                   System.out.println("Defender");
+                case 6:
+                   System.out.println("Midfielder");
+                case 7:
+                   System.out.println("Winger");
+                default:
+                  System.out.println("Player position not known");
+                }
+                 
+
          
 
     }
