@@ -26,8 +26,8 @@ public class PlayerSelection {
         System.out.println("Enter player jersey number: ");
         jerseyNumber = input.nextInt();
         // Converting necessary quantities
-        final double pound = 0.45359237;
-        final int meter = 100;
+        final double POUND = 0.45359237;
+        final int METER = 100;
         weight *= pound;
         height *= meter;
         int weightInKg = (int) weight;
@@ -122,3 +122,4 @@ public class PlayerSelection {
 
     }
 }
+
