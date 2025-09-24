@@ -28,8 +28,8 @@ public class PlayerSelection {
         // Converting necessary quantities
         final double POUND = 0.45359237;
         final int METER = 100;
-        weight *= pound;
-        height *= meter;
+        weight *= POUND;
+        height *= METER;
         int weightInKg = (int) weight;
         int heightInCm = (int) height;
         // Checking eligibility
